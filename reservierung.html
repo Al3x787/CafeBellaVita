@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tisch reservieren | Café Bella Vita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Reservierungsbereich -->
+<section class="reservierung">
+
+    <!-- Überschrift -->
+    <h2>Ihre Reservierung</h2>
+
+    <!-- Reservierungsformular -->
+    <form>
+
+        <!-- Name -->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- E-Mail -->
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Datum -->
+        <label for="datum">Datum</label>
+        <input type="date" id="datum" name="datum" required>
+
+        <!-- Uhrzeit -->
+        <label for="uhrzeit">Uhrzeit</label>
+        <input type="time" id="uhrzeit" name="uhrzeit" required>
+
+        <!-- Anzahl der Personen -->
+        <label for="personen">Anzahl der Personen</label>
+        <input type="number"
+               id="personen"
+               name="personen"
+               min="1"
+               max="20"
+               required>
+
+        <!-- Besondere Wünsche -->
+        <label for="nachricht">Besondere Wünsche</label>
+        <textarea id="nachricht"
+                  name="nachricht"
+                  rows="5"></textarea>
+
+        <!-- Reservierungsbutton -->
+        <button type="submit">
+            Tisch reservieren
+        </button>
+
+    </form>
+
+            <!-- Zurück zur Startseite -->
+        <p>
+            <a href="index.html">Zurück zur Startseite</a>
+        </p>
+
+    </section>
+
+</body>
+</html>
