@@ -193,6 +193,19 @@ footer a:hover {
     margin: 0;
 }
 
+@media (max-width: 700px) {
+
+    .ueber-uns,
+    .kuchen-bereich,
+    .reservierung-info {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
 .kuchen-bereich ul {
     margin: 0;
     padding-left: 25px;
